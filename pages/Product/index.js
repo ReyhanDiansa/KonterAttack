@@ -6,11 +6,13 @@ import StarRatings from "react-star-ratings";
 import { BsBatteryFull, BsCpu, BsSearch } from "react-icons/bs";
 import { MdOutlineSdCard } from "react-icons/md";
 import Image from "next/image";
+import Footer from "@/component/Footer";
 
 const Favorite = () => {
   const [datas, setDatas] = useState([]);
   const [keyword, setKeyword] = useState("");
   const [filteredData, setFiltered] = useState([]);
+
   const fetchGetAll = () => {
     setDatas(data);
   };
@@ -139,6 +141,7 @@ const Favorite = () => {
               </div>
             ))}
       </div>
+      <Footer />
     </div>
   );
 };
