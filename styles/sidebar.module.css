@@ -1,0 +1,36 @@
+.nav{
+  margin: 5rem 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.nav_link {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: absolute;
+  right: 0;
+  width: 50%;
+  height: 70vh;
+  background-color: white;
+  opacity: 0.8;
+}
+.nav_link ul {
+  list-style: none;
+}
+
+.nav_link ul li {
+    padding: 2rem 0;
+    font-family: var(--font-arc);
+    font-size: x-large;
+}
+
+.opacity_50 {
+  transform: translateX(0);
+  visibility: visible;
+  transition: transform 0.5 ease-out, visibility 0s;
+  background-color: black;
+}
+

@@ -1,0 +1,37 @@
+.brand_title {
+    text-align: center;
+    font-family: var(--font-lato);
+  }
+  
+  .brand_title span {
+    border-bottom: 2px solid black;
+  }
+  
+  .brand_detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 1rem;
+    width: 100%;
+    margin: 2rem 0;
+    gap: 9rem;
+    flex-wrap: wrap;
+  }
+
+@media (min-width: 600px) and (max-width: 1000px) {
+    .brand_detail {
+        gap: 4rem;
+      }
+}
+
+@media (max-width: 600px) {
+    .brand_title h1{
+        text-align: center;
+        width: 95%;
+      }
+    
+      .brand_detail {
+        gap: 3rem;
+      }
+}

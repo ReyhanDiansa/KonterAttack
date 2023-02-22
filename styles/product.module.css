@@ -1,0 +1,127 @@
+.card_container {
+  margin: 4rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  font-family: var(--font-lato);
+}
+
+.card {
+  width: 16.5%;
+  height: 48vh;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0px 20px 50px #d9dbdf;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  justify-content: center;
+  font-size: small;
+}
+
+.rating {
+  text-align: start;
+  margin: 1rem 0 0 1rem;
+}
+
+.card h2 {
+  margin: 0 1rem;
+  text-align: start;
+  font-weight: 500;
+}
+
+.price {
+  text-align: start;
+  margin: 1rem 1rem;
+  font-size: medium;
+}
+.rupiah {
+  color: green;
+}
+
+.card_line {
+  width: 70%;
+  margin: 0.6rem 1rem;
+}
+
+.card_detail {
+  text-align: start;
+  margin: 0.5rem 1rem;
+  display: flex;
+  font-size: xx-small;
+  gap: 8px;
+  align-items: center;
+}
+
+.card_button {
+  text-align: start;
+  margin: 0 1rem;
+}
+.card_button button {
+  font-family: var(--font-lato);
+  padding: 0.2rem 1rem;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.search {
+  margin: 6rem 0 0 7.5rem;
+  position: relative;
+}
+
+.search input {
+  width: 50%;
+  height: 40px;
+  line-height: 28px;
+  padding: 0 1rem;
+  padding-left: 2.5rem;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  outline: none;
+  background-color: #ffffff;
+  color: #0d0c22;
+  transition: 0.3s ease;
+}
+
+.search input::placeholder {
+  color: #9e9ea7;
+ }
+ 
+  .search input:focus, .search input:hover {
+  outline: none;
+  border-color: rgba(0, 0, 0, 0.4);
+  background-color: #fff;
+  box-shadow: 0 0 0 4px rgba(57, 24, 37, 0.1);
+ }
+
+ 
+ 
+ .search svg {
+  position: absolute;
+  top: 0.7rem;
+  left: 1rem;
+  fill: #9e9ea7;
+  width: 1rem;
+  height: 1rem;
+ }
+ 
+
+@media (min-width: 600px) and (max-width: 1000px) {
+  .card {
+    width: 44%;
+    height: 50vh;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .card {
+    width: 70%;
+    height: 50vh;
+    gap: 20px;
+  }
+}

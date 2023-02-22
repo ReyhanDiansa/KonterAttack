@@ -1,0 +1,232 @@
+.first_content {
+  background-image: url("../public/assets/images/bg3.jpg");
+  height: 90vh;
+  background-size: cover;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+
+.hero_text {
+  width: 60%;
+  font-family: var(--font-lato);
+  margin: 12rem 0;
+  padding: 0 7rem;
+  font-size: x-large;
+}
+
+.hero_text h2 {
+  padding: 0.6rem 0;
+  font-weight: 300;
+}
+
+.hero_text h5 {
+  padding: 0.6rem 0;
+
+  font-weight: 300;
+  font-size: medium;
+  width: 70%;
+}
+
+.hero_image {
+  padding: 0 3rem;
+  width: 40%;
+}
+
+.hero_image img {
+  margin-top: 3rem;
+}
+.hero_button {
+  margin: 0.5rem 0;
+}
+.hero_button button {
+  font-family: var(--font-lato);
+  padding: 0.6rem 2rem;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.top_product {
+  margin: 8rem 0;
+  font-family: var(--font-lato);
+}
+.top_title {
+  text-align: center;
+  font-family: var(--font-lato);
+}
+
+.top_title span {
+  border-bottom: 2px solid black;
+}
+
+.card_container {
+  margin: 2rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  font-family: var(--font-lato);
+}
+
+.card {
+  width: 20%;
+  height: 50vh;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0px 20px 50px #d9dbdf;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  justify-content: center;
+}
+
+.rating {
+  text-align: start;
+  margin: 1rem 0 0 2rem;
+}
+
+.card h2 {
+  margin: 0 2rem;
+  text-align: start;
+  font-weight: 500;
+}
+
+.price {
+  text-align: start;
+  margin: 1rem 2rem;
+  font-size: large;
+}
+.rupiah {
+  color: green;
+}
+
+.card_line {
+  width: 70%;
+  margin: 0.6rem 2rem;
+}
+
+.card_detail {
+  text-align: start;
+  margin: 0.5rem 2rem;
+  display: flex;
+  font-size: x-small;
+  gap: 8px;
+  align-items: center;
+}
+
+.card_button {
+  text-align: start;
+  margin: 0 2rem;
+}
+.card_button button {
+  font-family: var(--font-lato);
+  padding: 0.5rem 1.2rem;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.aboutus {
+  margin: 5rem 2rem;
+}
+
+.aboutus_content {
+  /* background-color: rgb(255, 255, 255); */
+  margin: 3rem 1rem;
+  padding: 2rem 0 0 0;
+  display: flex;
+  width: 100%;
+}
+
+.aboutus_title {
+  text-align: center;
+  font-family: var(--font-lato);
+}
+
+.aboutus_title span {
+  border-bottom: 2px solid black;
+}
+
+
+
+
+/* Responsive Tablet */
+@media (min-width: 600px) and (max-width: 1000px) {
+  .first_content {
+    height: 85vh;
+  }
+
+  .hero_text {
+    width: 50%;
+    font-size: medium;
+    padding: 0 2rem;
+  }
+  .hero_text h5 {
+    width: 100%;
+  }
+
+  .hero_image {
+    padding: 0;
+    width: 50%;
+  }
+
+  .hero_image img {
+    width: 100%;
+    height: auto;
+  }
+
+
+  .card {
+    width: 44%;
+    height: 50vh;
+    gap: 20px;
+  }
+}
+
+/* Responsive Phone */
+@media (max-width: 600px) {
+  .hero {
+    flex-direction: column-reverse;
+    /* align-items: baseline; */
+  }
+  .hero_text {
+    width: 80%;
+    font-size: small;
+    padding: 0;
+    margin:0 2rem;
+  }
+  .hero_text h5 {
+    font-size: small;
+    width: 100%;
+  }
+
+  .hero_image {
+    padding: 3rem 0;
+    width: 50%;
+    margin: auto;
+  }
+
+  .hero_image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .hero_button button {
+    padding: 0.5rem 1rem;
+  }
+
+  .card {
+    width: 70%;
+    height: 60vh;
+    gap: 20px;
+  }
+
+}

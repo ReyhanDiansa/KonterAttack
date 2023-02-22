@@ -1,0 +1,62 @@
+[
+    {
+        "name":"Redmi note 11",
+        "price":"2.200.000",
+        "image":"/assets/images/redmin11.jpg",
+        "rate": 4.5,
+        "battery":"5000 mAh",
+        "memory":"128GB",
+        "cpu":"Snapdragon® 680",
+        "best":true
+    },
+    {
+        "name":"Realme 9 Pro",
+        "price":"3.799.000",
+        "image":"/assets/images/realme9.png",
+        "rate": 4,
+        "battery":"5000 mAh",
+        "memory":"128GB",
+        "cpu":"Snapdragon® 695",
+        "best":false
+    },
+    {
+        "name":"iPhone 13",
+        "price":"13.000.000",
+        "image":"/assets/images/ip13.png",
+        "rate": 4.2,
+        "battery":"3227 mAh",
+        "memory":"256GB",
+        "cpu":"Chip A15 Bionic",
+        "best":true
+    },
+    {
+        "name":"Vivo Y02",
+        "price":"2.641.000,00",
+        "image":"/assets/images/vivoy02.png",
+        "rate": 4.3,
+        "battery":"3227 mAh",
+        "memory":"256GB",
+        "cpu":"Chip A15 Bionic",
+        "best":true
+    },
+    {
+        "name":"Nothing Phone ",
+        "price":"9.700.000",
+        "image":"/assets/images/noth.png",
+        "rate": 3.9,
+        "battery":"4500 mAh",
+        "memory":"128GB",
+        "cpu":"Snapdragon 778G+",
+        "best":true
+    },
+    {
+        "name":" Black Shark 4 ",
+        "price":"8.925.000",
+        "image":"/assets/images/blacksh.png",
+        "rate": 3.5,
+        "battery":"4500 mAh",
+        "memory":"128GB",
+        "cpu":"Snapdragon 870",
+        "best":false
+    }
+]
