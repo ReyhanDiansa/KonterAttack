@@ -62,6 +62,7 @@
   .nav_title {
     color: black;
     margin: 1rem 1rem;
+    font-size: small;
   }
   .nav_toggle {
     display: block;

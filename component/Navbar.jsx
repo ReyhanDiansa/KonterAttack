@@ -43,7 +43,6 @@ const Navbar = () => {
     window.addEventListener("scroll", handleScroll); 
     return () => window.removeEventListener("scroll", handleScroll);
   });
-  console.log(isScrolled);
 
   return (
     <div className={styles.header} >

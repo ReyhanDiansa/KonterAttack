@@ -116,12 +116,30 @@
     height: 50vh;
     gap: 20px;
   }
+  
+  .search{
+    margin: 6rem 0 0 3rem;
+    width: 100%;
+  }
+
+  .search input{
+    width: 85%;
+  }
 }
 
 @media (max-width: 600px) {
   .card {
-    width: 70%;
-    height: 50vh;
+    width: 85%;
+    height: 55vh;
     gap: 20px;
+  }
+  
+  .search{
+    margin: 6rem 0 0 3rem;
+    width: 100%;
+  }
+
+  .search input{
+    width: 70%;
   }
 }

@@ -1,8 +1,12 @@
 import React from 'react'
 import styles from "@/styles/aboutus.module.css";
 import Image from "next/image";
+import { useRouter } from 'next/router';
+import Brand from './Brand';
+import Choose from './Choose';
 
 const Aboutus = () => {
+  const router = useRouter()
   return (
     <div>
         <section className={styles.aboutus}>
@@ -48,6 +52,7 @@ const Aboutus = () => {
           </div>
         </div>
       </section>
+      {router.pathname === "/Aboutus" ? <><Brand/> <Choose/></>: ''}
     </div>
   )
 }

@@ -6,13 +6,13 @@ import { BsBatteryFull, BsCpu } from "react-icons/bs";
 import { FaMemory } from "react-icons/fa";
 import { MdOutlineSdCard } from "react-icons/md";
 import Footer from "@/component/Footer";
-import data from "../data/produk.json"
+import data from "../data/produk.json";
 import Aboutus from "@/component/Aboutus";
 import Brand from "@/component/Brand";
+import Choose from "@/component/choose";
 
 export default function Home() {
-  
-  const bestProducts = data.filter(product => product.best);
+  const bestProducts = data.filter((product) => product.best);
   return (
     <>
       <div className={styles.first_content}>
@@ -44,52 +44,48 @@ export default function Home() {
 
       <section className={styles.top_product}>
         <div className={styles.top_title}>
-          <h1><span>BEST</span> SELLER</h1>
+          <h1>
+            <span>BEST</span> SELLER
+          </h1>
         </div>
         <div className={styles.card_container}>
-
           {bestProducts.map((item, index) => (
-          <div className={styles.card} >
-            <Image
-              src={item.image}
-              alt="My Image"
-              width={150}
-              height={150}
-            />
-            <div className={styles.rating}>
-              <StarRatings
-                rating={item.rate}
-                starRatedColor={"#ffd700"}
-                numberOfStars={5}
-                name="rating"
-                starDimension="15px"
-                starSpacing="2px"
-              />
-            </div>
-            <h2>{item.name}</h2>
-            <div className={styles.price}>
-              <h3>
-                <span className={styles.rupiah}>Rp</span> {item.price}
-              </h3>
-            </div>
-            <div className={styles.card_button}>
-              <button>Buy</button>
-            </div>
-            <hr className={styles.card_line} />
-            <div className={styles.card_detail}>
-              <div className={styles.battery}>
-                <BsBatteryFull /> <span>{item.battery}</span>
+            <div className={styles.card}>
+              <Image src={item.image} alt="My Image" width={150} height={150} />
+              <div className={styles.rating}>
+                <StarRatings
+                  rating={item.rate}
+                  starRatedColor={"#ffd700"}
+                  numberOfStars={5}
+                  name="rating"
+                  starDimension="15px"
+                  starSpacing="2px"
+                />
               </div>
-              <div className={styles.memory}>
-                <MdOutlineSdCard />
-                <span> {item.memory}</span>
+              <h2>{item.name}</h2>
+              <div className={styles.price}>
+                <h3>
+                  <span className={styles.rupiah}>Rp</span> {item.price}
+                </h3>
               </div>
-              <div className={styles.cpu}>
-                <BsCpu /> <span>{item.cpu}</span>
+              <div className={styles.card_button}>
+                <button>Buy</button>
+              </div>
+              <hr className={styles.card_line} />
+              <div className={styles.card_detail}>
+                <div className={styles.battery}>
+                  <BsBatteryFull /> <span>{item.battery}</span>
+                </div>
+                <div className={styles.memory}>
+                  <MdOutlineSdCard />
+                  <span> {item.memory}</span>
+                </div>
+                <div className={styles.cpu}>
+                  <BsCpu /> <span>{item.cpu}</span>
+                </div>
               </div>
             </div>
-          </div>
-))}
+          ))}
 
           {/* <div className={styles.card}>
             <Image
@@ -218,12 +214,16 @@ export default function Home() {
 
       <section className={styles.aboutus}>
         <div className={styles.aboutus_title}>
-          <h1>ABOUT <span>US</span></h1>
+          <h1>
+            ABOUT <span>US</span>
+          </h1>
         </div>
         <Aboutus />
       </section>
 
       <Brand />
+
+      <Choose />
 
       <Footer />
     </>

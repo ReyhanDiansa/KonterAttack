@@ -186,7 +186,7 @@
 
   .card {
     width: 44%;
-    height: 50vh;
+    height: 55vh;
     gap: 20px;
   }
 }
@@ -224,7 +224,7 @@
   }
 
   .card {
-    width: 70%;
+    width: 90%;
     height: 60vh;
     gap: 20px;
   }
