@@ -28,6 +28,7 @@ const Footer = () => {
               <MdEmail />
             </Link>
           </div>
+      
         </div>
 
         <div className={styles.nav_footer}>
@@ -46,6 +47,9 @@ const Footer = () => {
               About us
             </Link>
           </h4>
+        </div>
+        <div className={styles.address}>
+        Jl. Raya Malang No.1
         </div>
         <div className={styles.copyright}>Copyright © {year}</div>
       </div>
