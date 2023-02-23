@@ -1,9 +1,7 @@
-import Navbar from '@/component/Navbar'
+import Navbar from '../../component/Navbar'
 import React from 'react'
-import styles from "@/styles/aboutus.module.css";
-import Image from "next/image";
-import Aboutus from '@/component/Aboutus';
-import Footer from '@/component/Footer';
+import Aboutus from '../../component/AboutUs';
+import Footer from '../../component/Footer';
 
 const index = () => {
   return (

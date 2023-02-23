@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
-import styles from "@/styles/navbar.module.css";
+import styles from "../styles/navbar.module.css";
 import Sidebar from "./Sidebar";
 import { FaBars } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";

@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import styles from "@/styles/brand.module.css";
+import styles from "../styles/brand.module.css";
 
 const Brand = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "@/styles/choose.module.css";
+import styles from "../styles/choose.module.css";
 import { MdHighQuality } from "react-icons/md";
 import Image from "next/image";
 import { RiSecurePaymentFill } from "react-icons/ri";

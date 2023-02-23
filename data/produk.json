@@ -58,5 +58,65 @@
         "memory":"128GB",
         "cpu":"Snapdragon 870",
         "best":false
+    },
+    {
+        "name":" POCO M5s ",
+        "price":"2.400.000",
+        "image":"/assets/images/pocom5s.png",
+        "rate": 3.9,
+        "battery":"5000 mAh",
+        "memory":"128GB",
+        "cpu":"Helio G95",
+        "best":false
+    },
+    {
+        "name":" Realme 10 Pro ",
+        "price":"4.599.000",
+        "image":"/assets/images/realme10p.png",
+        "rate": 3.6,
+        "battery":"5000 mAh",
+        "memory":"128GB",
+        "cpu":"Snapdragon 695",
+        "best":false
+    },
+    {
+        "name":" Oppo A77s ",
+        "price":"3.300.000",
+        "image":"/assets/images/oppoa77.png",
+        "rate": 3.4,
+        "battery":"5000 mAh",
+        "memory":"128GB",
+        "cpu":"Snapdragon 680",
+        "best":false
+    },
+    {
+        "name":" Samsung Z Flip 3 ",
+        "price":"12.000.000",
+        "image":"/assets/images/zflip.png",
+        "rate": 3.8,
+        "battery":"3300 mAh",
+        "memory":"128GB",
+        "cpu":"Snapdragon 888",
+        "best":false
+    },
+    {
+        "name":" ROG Phone 5 ",
+        "price":"12.100.000",
+        "image":"/assets/images/rog5.png",
+        "rate": 4,
+        "battery":"6000 mAh",
+        "memory":"256GB",
+        "cpu":"Snapdragon 888",
+        "best":false
+    },
+    {
+        "name":" Legion Phone Duel ",
+        "price":"12.100.000",
+        "image":"/assets/images/legion.png",
+        "rate": 4,
+        "battery":"6000 mAh",
+        "memory":"256GB",
+        "cpu":"Snapdragon 865+",
+        "best":false
     }
 ]

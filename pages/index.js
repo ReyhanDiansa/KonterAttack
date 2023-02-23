@@ -1,15 +1,15 @@
-import styles from "@/styles/Home.module.css";
-import Navbar from "@/component/Navbar";
+import styles from "../styles/Home.module.css";
+import Navbar from "../component/Navbar";
 import Image from "next/image";
 import StarRatings from "react-star-ratings";
 import { BsBatteryFull, BsCpu } from "react-icons/bs";
-import { FaMemory } from "react-icons/fa";
 import { MdOutlineSdCard } from "react-icons/md";
-import Footer from "@/component/Footer";
+import Footer from "../component/Footer";
 import data from "../data/produk.json";
-import Aboutus from "@/component/Aboutus";
-import Brand from "@/component/Brand";
-import Choose from "@/component/choose";
+import Aboutus from "../component/AboutUs";
+import Brand from "../component/Brand";
+import Choose from "../component/Choose";
+import Link from "next/link";
 
 export default function Home() {
   const bestProducts = data.filter((product) => product.best);
@@ -28,7 +28,7 @@ export default function Home() {
               perfect phone to fit your needs and budget.
             </h5>
             <div className={styles.hero_button}>
-              <button>Buy Now</button>
+              <button><Link href=''>Buy Now</Link></button>
             </div>
           </div>
           <div className={styles.hero_image}>

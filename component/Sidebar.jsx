@@ -1,6 +1,6 @@
 import Link from "next/link";
-import React, { useState } from "react";
-import styles from "@/styles/sidebar.module.css";
+import React from "react";
+import styles from "../styles/sidebar.module.css";
 
 
 const Sidebar = () => {
