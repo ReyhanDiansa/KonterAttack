@@ -61,7 +61,7 @@
 @media (max-width: 600px) {
   .nav_title {
     color: black;
-    margin: 1rem 1rem;
+    margin: 1.2rem 1rem;
     font-size: small;
   }
   .nav_toggle {

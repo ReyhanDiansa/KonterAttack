@@ -11,7 +11,6 @@
 
 .card {
   width: 17%;
-  height: 48vh;
   background: white;
   border-radius: 4px;
   box-shadow: 0px 20px 50px #d9dbdf;
@@ -54,7 +53,7 @@ object-fit: contain;
 
 .card_detail {
   text-align: start;
-  margin: 0.5rem 1rem;
+  margin: 1rem;
   display: flex;
   font-size: xx-small;
   gap: 8px;
@@ -123,7 +122,6 @@ object-fit: contain;
 @media (min-width: 600px) and (max-width: 1000px) {
   .card {
     width: 44%;
-    height: 50vh;
     gap: 20px;
   }
   
@@ -140,7 +138,6 @@ object-fit: contain;
 @media (max-width: 600px) {
   .card {
     width: 85%;
-    height: 55vh;
     gap: 20px;
   }
   

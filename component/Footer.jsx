@@ -33,22 +33,17 @@ const Footer = () => {
         <div className={styles.nav_footer}>
           <h4>
             <Link href="/" className={styles.nav_link}>
-              Beranda
+              Home
             </Link>
           </h4>
           <h4>
-            <Link href="/tentangsaya" className={styles.nav_link}>
-              About me
+            <Link href="/Product" className={styles.nav_link}>
+              Product
             </Link>
           </h4>
           <h4>
-            <Link href="/karya" className={styles.nav_link}>
-              Karya
-            </Link>
-          </h4>
-          <h4>
-            <Link href="/kontak" className={styles.nav_link}>
-              Kontak
+            <Link href="/Aboutus" className={styles.nav_link}>
+              About us
             </Link>
           </h4>
         </div>

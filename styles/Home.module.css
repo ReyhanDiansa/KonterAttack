@@ -77,7 +77,6 @@
 
 .card {
   width: 20%;
-  height: 50vh;
   background: white;
   border-radius: 4px;
   box-shadow: 0px 20px 50px #d9dbdf;
@@ -118,7 +117,7 @@
 
 .card_detail {
   text-align: start;
-  margin: 0.5rem 2rem;
+  margin: 1rem 2rem;
   display: flex;
   font-size: x-small;
   gap: 8px;
@@ -185,7 +184,6 @@
 
   .card {
     width: 44%;
-    height: 55vh;
     gap: 20px;
   }
 }
@@ -224,7 +222,6 @@
 
   .card {
     width: 90%;
-    height: 60vh;
     gap: 20px;
   }
 }
