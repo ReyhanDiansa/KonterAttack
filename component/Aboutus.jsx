@@ -4,6 +4,8 @@ import Image from "next/image";
 import { useRouter } from 'next/router';
 import Brand from './Brand';
 import Choose from './Choose';
+import Link from "next/link";
+
 
 const Aboutus = () => {
   const router = useRouter()
@@ -47,7 +49,7 @@ const Aboutus = () => {
               needs.
             </p>
             <div className={styles.aboutus_button}>
-              <button>See Product</button>
+              <button><Link href="/Product">See Product</Link></button>
             </div>
           </div>
         </div>

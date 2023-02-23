@@ -28,7 +28,7 @@ export default function Home() {
               perfect phone to fit your needs and budget.
             </h5>
             <div className={styles.hero_button}>
-              <button><Link href=''>Buy Now</Link></button>
+              <button><Link href="/Product">Buy Now</Link></button>
             </div>
           </div>
           <div className={styles.hero_image}>
@@ -87,128 +87,6 @@ export default function Home() {
             </div>
           ))}
 
-          {/* <div className={styles.card}>
-            <Image
-              src="/assets/images/redmin11.jpg"
-              alt="My Image"
-              width={150}
-              height={150}
-            />
-            <div className={styles.rating}>
-              <StarRatings
-                rating={4.5}
-                starRatedColor={"#ffd700"}
-                numberOfStars={5}
-                name="rating"
-                starDimension="15px"
-                starSpacing="2px"
-              />
-            </div>
-            <h2>Redmi note 11</h2>
-            <div className={styles.price}>
-              <h3>
-                <span className={styles.rupiah}>Rp</span> 2.200.000
-              </h3>
-            </div>
-            <div className={styles.card_button}>
-              <button>Buy</button>
-            </div>
-            <hr className={styles.card_line} />
-            <div className={styles.card_detail}>
-              <div className={styles.battery}>
-                <BsBatteryFull /> <span>5000 mAh</span>
-              </div>
-              <div className={styles.memory}>
-                <MdOutlineSdCard />
-                <span> 128GB</span>
-              </div>
-              <div className={styles.cpu}>
-                <BsCpu /> <span>Snapdragon® 680</span>
-              </div>
-            </div>
-          </div>
-
-          <div className={styles.card}>
-            <Image
-              src="/assets/images/redmin11.jpg"
-              alt="My Image"
-              width={150}
-              height={150}
-            />
-            <div className={styles.rating}>
-              <StarRatings
-                rating={4.5}
-                starRatedColor={"#ffd700"}
-                numberOfStars={5}
-                name="rating"
-                starDimension="15px"
-                starSpacing="2px"
-              />
-            </div>
-            <h2>Redmi note 11</h2>
-            <div className={styles.price}>
-              <h3>
-                <span className={styles.rupiah}>Rp</span> 2.200.000
-              </h3>
-            </div>
-            <div className={styles.card_button}>
-              <button>Buy</button>
-            </div>
-            <hr className={styles.card_line} />
-            <div className={styles.card_detail}>
-              <div className={styles.battery}>
-                <BsBatteryFull /> <span>5000 mAh</span>
-              </div>
-              <div className={styles.memory}>
-                <MdOutlineSdCard />
-                <span> 128GB</span>
-              </div>
-              <div className={styles.cpu}>
-                <BsCpu /> <span>Snapdragon® 680</span>
-              </div>
-            </div>
-          </div>
-
-          <div className={styles.card}>
-            <Image
-              src="/assets/images/redmin11.jpg"
-              alt="My Image"
-              width={150}
-              height={150}
-            />
-            <div className={styles.rating}>
-              <StarRatings
-                rating={4.5}
-                starRatedColor={"#ffd700"}
-                numberOfStars={5}
-                name="rating"
-                starDimension="15px"
-                starSpacing="2px"
-              />
-            </div>
-            <h2>Redmi note 11</h2>
-            <div className={styles.price}>
-              <h3>
-                <span className={styles.rupiah}>Rp</span> 2.200.000
-              </h3>
-            </div>
-            <div className={styles.card_button}>
-              <button>Buy</button>
-            </div>
-            <hr className={styles.card_line} />
-            <div className={styles.card_detail}>
-              <div className={styles.battery}>
-                <BsBatteryFull /> <span>5000 mAh</span>
-              </div>
-              <div className={styles.memory}>
-                <MdOutlineSdCard />
-                <span> 128GB</span>
-              </div>
-              <div className={styles.cpu}>
-                <BsCpu /> <span>Snapdragon® 680</span>
-              </div>
-            </div>
-          </div> */}
         </div>
       </section>
 
