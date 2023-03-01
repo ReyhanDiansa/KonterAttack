@@ -64,9 +64,10 @@ object-fit: contain;
   text-align: start;
   margin: 0 1rem;
 }
-.card_button button {
+.card_button a {
+  text-align: center;
   font-family: var(--font-lato);
-  padding: 0.2rem 1rem;
+  padding: 0.3rem 1rem;
   background-color: black;
   color: white;
   cursor: pointer;

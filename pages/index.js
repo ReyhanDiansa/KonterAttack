@@ -28,7 +28,9 @@ export default function Home() {
               perfect phone to fit your needs and budget.
             </h5>
             <div className={styles.hero_button}>
-              <button><Link href="/Product">Buy Now</Link></button>
+              <button>
+                <Link href="/Product">Buy Now</Link>
+              </button>
             </div>
           </div>
           <div className={styles.hero_image}>
@@ -86,7 +88,6 @@ export default function Home() {
               </div>
             </div>
           ))}
-
         </div>
       </section>
 

@@ -6,6 +6,7 @@ import StarRatings from "react-star-ratings";
 import { BsBatteryFull, BsCpu, BsSearch } from "react-icons/bs";
 import { MdOutlineSdCard } from "react-icons/md";
 import Image from "next/image";
+import Link from "next/link";
 
 const Favorite = () => {
   const [datas, setDatas] = useState([]);
@@ -99,7 +100,7 @@ const Favorite = () => {
                   </h3>
                 </div>
                 <div className={styles.card_button}>
-                  <button>Buy</button>
+                  <Link href={`/Detail/${item.id}`}>Buy</Link >
                 </div>
                 <hr className={styles.card_line} />
                 <div className={styles.card_detail}>
@@ -138,7 +139,7 @@ const Favorite = () => {
                 </h3>
               </div>
               <div className={styles.card_button}>
-                <button>Buy</button>
+              <Link href={`/Detail/${item.id}`}>Buy</Link >
               </div>
               <hr className={styles.card_line} />
               <div className={styles.card_detail}>
