@@ -13,33 +13,31 @@
         "terjual": 275,
         "stok": 300,
         "desk": "Untuk menunjang segala aktivitas terutama di zaman modern yang serba canggih dan teknologi yang pesat, HP Xiaomi Redmi Note 11 hadir untuk menjawab segala kebutuhan. HP Redmi Note 11 ini menawarkan desain yang minimalis dengan tampilan yang minimalis dan elegan.Selain menawarkan tampilan yang menarik, Redmi Note 11 juga dibandrol dengan harga yang bersahabat untuk sebuah HP sekelasnya.",
-        "image_car":{
-           "img1":"/assets/images/redmin11.jpg",
-           "img2":"/assets/images/redmin11_2.jpg"
+        "image_car": {
+            "1": "/assets/images/redmin11.jpg",
+            "2": "/assets/images/redmin11_2.jpg"
         },
-        "spesification": 
-            {
-                "brand": "Redmi",
-                "tahun rilis": "2022",
-                "jaringan": "2G,3G,4G",
-                "dimensi": "159.9 x 73.9 x 8.1 mm",
-                "berat": "179 g",
-                "sim": "2 slot(s)",
-                "tipe sim": "Nano SIM",
-                "screen resolution": "1080 x 2400 Pixel",
-                "screen technology": "AMOLED",
-                "OS version": "Android 11",
-                "prosessor": "Qualcomm",
-                "detail prosessor": "SM6225 Snapdragon 680 4G (6 nm)",
-                "GPU": "Adreno 610",
-                "RAM": "4GB",
-                "Memori internal": "128GB",
-                "Resolusi Kamera Belakang": "50 MP",
-                "Kapasitas Baterai": "5000 mAh",
-                "USB": "USB OTG, Type-C",
-                "bluetooth":"Bluetooth 5.0, A2DP, LE"
-            }
-        
+        "spesification": {
+            "brand": "Redmi",
+            "tahun rilis": "2022",
+            "jaringan": "2G,3G,4G",
+            "dimensi": "159.9 x 73.9 x 8.1 mm",
+            "berat": "179 g",
+            "sim": "2 slot(s)",
+            "tipe sim": "Nano SIM",
+            "screen resolution": "1080 x 2400 Pixel",
+            "screen technology": "AMOLED",
+            "OS version": "Android 11",
+            "prosessor": "Qualcomm",
+            "detail prosessor": "SM6225 Snapdragon 680 4G (6 nm)",
+            "GPU": "Adreno 610",
+            "RAM": "4GB",
+            "Memori internal": "128GB",
+            "Resolusi Kamera Belakang": "50 MP",
+            "Kapasitas Baterai": "5000 mAh",
+            "USB": "USB OTG, Type-C",
+            "bluetooth": "Bluetooth 5.0, A2DP, LE"
+        }
     },
     {
         "id": "2",
@@ -54,7 +52,30 @@
         "merk": "Realme",
         "terjual": 80,
         "stok": 120,
-        "desk": ""
+        "desk": "Realme 9 Pro 5G sebagai versi smartphone yang lebih rendah dari sisi spesifikasi dan fitur. Walaupun begitu, smartphone ini tetap menawarkan performa andal yang juga dapat mendukung beragam aktivitas setiap penggunanya. Mulai dari menikmati konten multimedia atau bermain game bisa dilakukan melalui smartphone ini secara lancar.",
+        "image_car": {
+            "1": "/assets/images/realme9.png",
+            "2": "/assets/images/realme92.jpg"
+        },
+        "spesification": {
+            "brand": "Realme",
+            "tahun rilis": "2022",
+            "jaringan": "2G,3G,4G,5G",
+            "dimensi": "164.3 x 75.6 x 8.5 mm",
+            "berat": "195 g",
+            "sim": "2 slot(s)",
+            "tipe sim": "Nano SIM",
+            "screen resolution": "1080 x 2412 Pixel",
+            "screen technology": "AMOLED",
+            "OS version": "Android 12",
+            "prosessor": "Qualcomm",
+            "detail prosessor": "SM6375 Snapdragon 695 5G (6 nm)",
+            "GPU": "Adreno 619",
+            "RAM": "8GB",
+            "Memori internal": "128GB",
+            "Resolusi Kamera Belakang": "64 MP",
+            "Kapasitas Baterai": "5000 mAh"
+        }
     },
     {
         "id": "3",
@@ -69,22 +90,69 @@
         "terjual": 312,
         "merk": "Apple",
         "stok": 345,
-        "desk": ""
+        "desk": "iPhone 13 akan membuat penggunanya takjub saat pertama kali menggunakannya. Meski demikian, bentuknya yang mirip iPhone 12 mungkin menjadikan generasi baru ini telihat biasa saja. Layar iPhone 13 lebih terang dari pendahulunya. Masa pakai baterai lebih lama. Apple telah meningkatkan kamera yang sudah hebat dengan sensor baru dan fitur fotografi komputasional yang membuat Anda merasa seperti seorang profesional.",
+        "image_car": {
+            "1": "/assets/images/ip13.png",
+            "2": "/assets/images/ip132.jpg"
+        },
+        "spesification": {
+            "brand": "Apple",
+            "tahun rilis": "2021",
+            "jaringan": "2G,3G,4G,5G",
+            "dimensi": "146.7 x 71.5 x 7.7 mm ",
+            "berat": "174 g",
+            "sim": "1 slot(s)",
+            "tipe sim": "Nano SIM, eSIM",
+            "screen resolution": "2532 x 1170 Pixel ",
+            "screen technology": "Super Retina XDR OLED, HDR10, Dolby Vision, 800 nits (typ), 1200 nits (peak) ",
+            "OS version": "15",
+            "prosessor": "Apple",
+            "detail prosessor": "A15 Bionic",
+            "GPU": "Apple GPU (4-core graphics) ",
+            "RAM": "4GB",
+            "Memori internal": "128GB",
+            "Resolusi Kamera Belakang": "12 MP",
+            "Kapasitas Baterai": "3227 mAh",
+            "Bluetooth": "Bluetooth 5.0, A2DP, LE"
+        }
     },
     {
         "id": "4",
         "name": "Vivo Y02",
-        "price": "2.641.000,00",
+        "price": "1.641.000",
         "image": "/assets/images/vivoy02.png",
-        "rate": 4.3,
-        "battery": "3227 mAh",
-        "memory": "256GB",
-        "cpu": "Chip A15 Bionic",
-        "best": true,
+        "rate": 3,
+        "battery": "5000 mAh",
+        "memory": "128GB",
+        "cpu": "Helio P22",
+        "best": false,
         "merk": "Vivo",
         "terjual": 290,
         "stok": 302,
-        "desk": ""
+        "desk": "Vivo Y02 adalah HP harga Rp 1 jutaan yang dirilis tahun 2022 oleh Vivo Indonesia untuk kalangan low entry atau kalangan menengah ke bawah. Dengan harga yang terjangkau ini HP Vivo Y02 ini menjadi smartphone HP 1 jutaan terbaru 2023 untuk bisa dimiliki.Masuk ke ranah harga HP 1 jutaan, Vivo Y02 tak kalah bersaing dengan OPPO A17k yang juga berada di low entry.Di mana, OPPO A17k HP 1 jutaan yang rilis pada November 2022 ini dijual dengan harga Rp 1.799.000. Di konter resmi bisa lebih murah jika ada promo.",
+        "image_car": {
+            "1": "/assets/images/vivoy02.png",
+            "2": "/assets/images/vivoy022.jpg"
+        },
+        "spesification": {
+            "brand": "Vivo",
+            "tahun rilis": "2022",
+            "jaringan": "3G,4G",
+            "dimensi": "163,99×75,63×8,49 mm",
+            "berat": "186 g",
+            "sim": "2 slot(s)",
+            "tipe sim": "MICRO SIM",
+            "screen resolution": "1600 × 720 Pixel",
+            "screen technology": "IPS LCD",
+            "OS version": "Android 12",
+            "prosessor": "MediaTek",
+            "detail prosessor": "MT6762 Helio P22 (12 nm)",
+            "GPU": "PowerVR GE8320",
+            "RAM": "3GB",
+            "Memori internal": "32GB",
+            "Resolusi Kamera Belakang": "64 MP",
+            "Kapasitas Baterai": "5000 mAh"
+        }
     },
     {
         "id": "5",
@@ -99,7 +167,32 @@
         "merk": "Nothing",
         "terjual": 307,
         "stok": 310,
-        "desk": ""
+        "desk": "Ponsel ini memakai Snapdragon 778, bukan prosesor terbaik dari Qualcomm. Tapi pilihan memakai chip yang lebih murah dan tetap mumpuni membuat harganya jadi masuk akal, disertai dengan dukungan software yang solid.Fitur unggulan Nothing Phone 1, notifikasi glyph, adalah gimmick, tapi merupakan gaya unik ponsel ini yang mungkin menarik bagi sebagian orang.",
+        "image_car": {
+            "1": "/assets/images/noth.png",
+            "2": "/assets/images/noth2.jpg"
+        },
+        "spesification": {
+            "brand": "Nothing",
+            "tahun rilis": "2022",
+            "jaringan": "3G,4G,5G",
+            "dimensi": "159.2 x 75.8 x 8.3 mm",
+            "berat": "193.5 g",
+            "sim": "2 slot(s)",
+            "tipe sim": "Nano SIM",
+            "screen resolution": "1080 x 2400 Pixel",
+            "screen technology": "OLED",
+            "OS version": "Android 12",
+            "prosessor": "Qualcomm",
+            "detail prosessor": "SM7325-AE Snapdragon 778G+ 5G (6 nm)",
+            "GPU": "Adreno 642L",
+            "RAM": "8GB",
+            "Memori internal": "128GB",
+            "Resolusi Kamera Belakang": "50 MP",
+            "Kapasitas Baterai": "4500 mAh",
+            "USB": "Type-C 30-Pin Dock",
+            "Bluetooth": "A2DP, LE, Bluetooth 5.2"
+        }
     },
     {
         "id": "6",
@@ -114,7 +207,32 @@
         "merk": "Xiaomi",
         "terjual": 75,
         "stok": 102,
-        "desk": ""
+        "desk": "Ponsel baru merupakan impian yang dimiliki setiap individu, apalagi dengan spesifikasi yang menakjubkan akan membuat seseorang ingin mendapatkannya. Nah, daripada bingung memikirkan kelayakan sebuah ponsel, kamu bisa cek spesifikasi dari salah satu ponsel Xiaomi berikut yaitu Black Shark 4.Performa dari Black Shark 4 nggak perlu diragukan lagi. Meski ponsel ini nggak menggunakan chipset tercepat di dunia saat ini.",
+        "image_car": {
+            "1": "/assets/images/blacksh.png",
+            "2": "/assets/images/blacksh2.jpeg"
+        },
+        "spesification": {
+            "brand": "Black Shark",
+            "tahun rilis": "2021",
+            "jaringan": "2G,3G,4G,5G",
+            "dimensi": "163.8 x 76.4 x 9.9 mm",
+            "berat": "210 g",
+            "sim": "2 slot(s)",
+            "tipe sim": "Nano SIM",
+            "screen resolution": "2400 x 1080 Pixel",
+            "screen technology": "Super AMOLED, 144Hz, HDR10+, 1300 nits",
+            "OS version": "Android 11",
+            "prosessor": "Qualcomm",
+            "detail prosessor": "SM8250-AC Snapdragon 870",
+            "GPU": "Adreno 650",
+            "RAM": "8GB",
+            "Memori internal": "128GB",
+            "Resolusi Kamera Belakang": "48 MP",
+            "Kapasitas Baterai": "4500 mAh",
+            "USB": "Type-C",
+            "Bluetooth": "A2DP, LE, Bluetooth 5.2, aptX HD, aptX Adaptive"
+        }
     },
     {
         "id": "7",
@@ -129,7 +247,32 @@
         "merk": "Poco",
         "terjual": 40,
         "stok": 78,
-        "desk": ""
+        "desk": "Poco M5s terlihat seperti kebanyakan smartphone yang menggunakan bahan plastik polikarbonat, terasa kokoh saat saya genggam.POCO M5s disebut hadir dengan fitur yang lebih banyak dan lengkap dibanding versi regulernya.",
+        "image_car": {
+            "1": "/assets/images/pocom5s.png",
+            "2": "/assets/images/pocom5s2.jpg"
+        },
+        "spesification": {
+            "brand": "POCO",
+            "tahun rilis": "2022",
+            "jaringan": "3G,4G",
+            "dimensi": "160.5 x 74.5 x 8.3 mm",
+            "berat": "178.8 g",
+            "sim": "2 slot(s)",
+            "tipe sim": "Nano SIM",
+            "screen resolution": "1080 x 2400 Pixel",
+            "screen technology": "MOLED",
+            "OS version": "Android 12",
+            "prosessor": "MediaTek",
+            "detail prosessor": "Helio G95 (12 nm)",
+            "GPU": "Mali-G76 MC4",
+            "RAM": "6GB",
+            "Memori internal": "128GB",
+            "Resolusi Kamera Belakang": "64 MP",
+            "Kapasitas Baterai": "5000 mAh",
+            "USB": "Type-C",
+            "Bluetooth": "Bluetooth 5.0, A2DP, LE"
+        }
     },
     {
         "id": "8",
@@ -144,7 +287,32 @@
         "merk": "Realme",
         "terjual": 90,
         "stok": 98,
-        "desk": ""
+        "desk": "Dari sisi spesifikasi, realme 10 Pro cukup menjanjikan. Apalagi melihat spesifikasi kameranya yang dilengkapi sensor Samsung HM6 108 megapixel dan kamera selfie 16 megapixel.Desain dan  layar menjadi fitur yang dibanggakan realme 10 Pro.",
+        "image_car": {
+            "1": "/assets/images/realme10p.png",
+            "2": "/assets/images/realme10p2.jpg"
+        },
+        "spesification": {
+            "brand": "Realme",
+            "tahun rilis": "2022",
+            "jaringan": "3G,4G,5G",
+            "dimensi": "163.7 x 74.2 x 8.1 mm",
+            "berat": "190 g",
+            "sim": "2 slot(s)",
+            "tipe sim": "Nano SIM",
+            "screen resolution": "1080 x 240 Pixel",
+            "screen technology": "IPS LCD",
+            "OS version": "Android 13",
+            "prosessor": "Qualcomm",
+            "detail prosessor": "SM6375 Snapdragon 695 5G (6 nm)",
+            "GPU": "Adreno 619",
+            "RAM": "8GB",
+            "Memori internal": "128GB",
+            "Resolusi Kamera Belakang": "108 MP",
+            "Kapasitas Baterai": "5000 mAh",
+            "USB": "Type-C",
+            "Bluetooth": "A2DP, LE, Bluetooth 5.1"
+        }
     },
     {
         "id": "9",
@@ -159,7 +327,32 @@
         "merk": "Oppo",
         "terjual": 59,
         "stok": 202,
-        "desk": ""
+        "desk": "martphone OPPO A77s telah menarik hati para pengguna yang terpesona dengan desain dan spesifikasi Reno. Dengan mengusung desain OPPO Reno, A77s juga ternyata memiliki spesifikasi yang hampir sama dengan Reno. Yang paling menarik dan menjadi kesan pertama adalah desain bodi belakangnya. Sangat mirip dengan OPPO Reno7. Desain bodi dengan tekstur kulit, ditambah dua lingkaran kamera utama di dalam sebuah rumah kaca persegi panjang.",
+        "image_car": {
+            "1": "/assets/images/oppoa77.png",
+            "2": "/assets/images/oppoa772.jpg"
+        },
+        "spesification": {
+            "brand": "Oppo",
+            "tahun rilis": "2022",
+            "jaringan": "3G,4G",
+            "dimensi": "163.8 x 75 x 8 mm",
+            "berat": "187 g",
+            "sim": "2 slot(s)",
+            "tipe sim": "Nano SIM",
+            "screen resolution": "720 x 1612 Pixel",
+            "screen technology": "IPS LCD",
+            "OS version": "Android 12",
+            "prosessor": "Qualcomm",
+            "detail prosessor": "SM6225 Snapdragon 680 4G (6 nm)",
+            "GPU": "Adreno 610",
+            "RAM": "8GB",
+            "Memori internal": "128GB",
+            "Resolusi Kamera Belakang": "50 MP",
+            "Kapasitas Baterai": "5000 mAh",
+            "USB": "Type-C, USB OTG",
+            "Bluetooth": "Bluetooth 5.0, A2DP, LE, aptX HD"
+        }
     },
     {
         "id": "10",
@@ -170,11 +363,36 @@
         "battery": "3300 mAh",
         "memory": "128GB",
         "cpu": "Snapdragon 888",
-        "best": false,
+        "best": true,
         "merk": "Samsung",
         "terjual": 77,
         "stok": 100,
-        "desk": ""
+        "desk": "Handphone (HP) berlayar lipat ini memiliki banyak keunggulan terbaru dan dibanderol dengan harga yang lebih murah dibandingkan pendahulunya. Ada beberapa keunggulan yang Samsung sediakan termasuk chipset bertenaga dan juga cover screen yang luas. Device unggulan ini memiliki varian warna yang lebih banyak dari pendahulunya yang hanya mirror purple, mirror black, dan mirror gold. ",
+        "image_car": {
+            "1": "/assets/images/zflip.png",
+            "2": "/assets/images/zflip2.jpg"
+        },
+        "spesification": {
+            "brand": "Samsung",
+            "tahun rilis": "2021",
+            "jaringan": "2G,3G,4G,5G",
+            "dimensi": "166 x 72.2 x 6.9 mm",
+            "berat": "183 g",
+            "sim": "1 slot(s)",
+            "tipe sim": "Nano SIM, eSIM",
+            "screen resolution": "2640 x 1080 Pixel",
+            "screen technology": "Foldable Dynamic AMOLED 2X, 120Hz, HDR10+, 1200 nits (peak)",
+            "OS version": "11",
+            "prosessor": "Qualcomm",
+            "detail prosessor": "SM8350 Snapdragon 888 5G",
+            "GPU": "Adreno 660",
+            "RAM": "8GB",
+            "Memori internal": "256GB",
+            "Resolusi Kamera Belakang": "12 MP",
+            "Kapasitas Baterai": "3300 mAh",
+            "USB": "Type-C, USB OTG",
+            "Bluetooth": "A2DP, LE, Bluetooth 5.1"
+        }
     },
     {
         "id": "11",
@@ -189,10 +407,32 @@
         "merk": "Asus",
         "terjual": 67,
         "stok": 86,
-        "desk": "",
-        "spesification": [
-            ""
-        ]
+        "desk": "ASUS ROG Phone 5 pun punya segudang fitur gaming yang bukan cuma menarik, tapi juga esensial untuk menunjang kebutuhan bermain game.ASUS juga mencurahkan perhatiannya pada pengalaman visual dan audio pengguna ROG Phone 5 dengan fitur serta teknologinya yang terdepan.",
+        "image_car": {
+            "1": "/assets/images/rog5.png",
+            "2": "/assets/images/rog52.jpeg"
+        },
+        "spesification": {
+            "brand": "ASUS",
+            "tahun rilis": "2021",
+            "jaringan": "2G,3G,4G,5G",
+            "dimensi": "172.8 x 77.3 x 10.3 mm",
+            "berat": "238 g",
+            "sim": "2 slot(s)",
+            "tipe sim": "Nano SIM",
+            "screen resolution": "2448 x 1080 Pixel",
+            "screen technology": "AMOLED, 1B colors, 144Hz, HDR10+, 800 nits (typ), 1200 nits (peak)",
+            "OS version": "11",
+            "prosessor": "Qualcomm",
+            "detail prosessor": "SM8350 Snapdragon 888 5G",
+            "GPU": "Adreno 660",
+            "RAM": "12GB",
+            "Memori internal": "256GB",
+            "Resolusi Kamera Belakang": "64 MP",
+            "Kapasitas Baterai": "6000 mAh",
+            "USB": "Type-C, USB OTG",
+            "Bluetooth": "A2DP, LE, apt-X, Bluetooth 5.2, aptX Adaptive"
+        }
     },
     {
         "id": "12",
@@ -207,6 +447,25 @@
         "merk": "Lenovo",
         "terjual": 65,
         "stok": 88,
-        "desk": ""
+        "desk": "Smartphone Legion Duel yang dipasarkan untuk Tiongkok lebih dulu dengan nama Legion Pro ini mengusung spesifikasi tinggi yang bisa diharapkan dari sebuah smartphone gaming, di mana tidak hanya mengusung layar 144 Hz saja tetapi juga dipersenjatai chipset Snapdragon 865+.",
+        "image_car": {
+            "1": "/assets/images/legion.png",
+            "2": "/assets/images/legion2.png"
+        },
+        "spesification": {
+            "brand": "LENOVO",
+            "tahun rilis": "2020",
+            "dimensi": "169.2 x 78,5 x 9,9 mm",
+            "berat": "239 g",
+            "screen resolution": "1080 x 2340 pixel",
+            "screen technology": "AMOLED",
+            "prosessor": "Qualcomm",
+            "detail prosessor": "SM8250 Snapdragon 865+ (7 nm+)",
+            "GPU": "Adreno 650",
+            "RAM": "12GB",
+            "Memori internal": "256GB",
+            "Resolusi Kamera Belakang": "64 MP",
+            "Kapasitas Baterai": "5000 mAh"
+        }
     }
 ]

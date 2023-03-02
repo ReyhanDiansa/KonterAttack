@@ -28,7 +28,6 @@ const Detail = () => {
   const next = () => sliderRef.current.slickNext();
   const previous = () => sliderRef.current.slickPrev();
 
-
   useEffect(() => {
     if (id) {
       const filteredData = datas.filter((e) => e.id === id);
@@ -36,26 +35,22 @@ const Detail = () => {
     }
   }, [id]);
 
-    if (!filtered && !data) {
-      return <div>Loading...</div>;
-    }
+  if (!filtered && !data) {
+    return <div>Loading...</div>;
+  }
 
-  
-  
   const decrementCount = () => {
     if (counter > 0) {
       setCounter(counter - 1);
     }
   };
-  
-  
+
   const incrementCount = () => {
     if (filtered.stok - filtered.terjual > counter) {
       setCounter(counter + 1);
     }
   };
 
-  console.log(filtered.spesification);
 
   const settings = {
     dots: true,
@@ -64,6 +59,7 @@ const Detail = () => {
     arrows: false,
   };
 
+  console.log(filtered.image_car);
   return (
     <>
       <Navbar />
@@ -163,13 +159,13 @@ const Detail = () => {
 
       <div className={styles.detail_spec}>
         <h1>SPESIFICATION</h1>
-        <table border={1}>
+        <table >
           <tbody>
             {filtered.spesification &&
               Object.entries(filtered.spesification).map(([key, value]) => (
                 <tr key={key}>
-                  <td>{key}</td>
-                  <td>{value}</td>
+                  <td><span>{key}</span></td>
+                  <td>: {value}</td>
                 </tr>
               ))}
           </tbody>

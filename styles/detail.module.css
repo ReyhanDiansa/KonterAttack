@@ -163,8 +163,7 @@
 
 .detail_spec h1 {
   font-family: var(--font-lato);
-  text-align: center;
-  margin: 1rem 0;
+  margin: 1rem 4.5rem;
 }
 
 .detail_spec td {
@@ -173,18 +172,29 @@
 }
 
 .detail_spec table {
-  border-collapse: collapse;
+  /* border-collapse: collapse; */
   margin: 2rem auto 3rem auto;
-  border-spacing: 1.3rem;
+  /* border-spacing: 1.3rem; */
 }
 
 .detail_spec table tbody td {
-  border: 1px solid rgb(118, 118, 118); /* add borders to cells */
-  padding: 5px;
+  /* border: 1px solid rgb(118, 118, 118); add borders to cells */
+  padding: 1rem;
 }
-.detail_spec tbody {
-  text-align: center;
+.detail_spec table tbody td span {
+  /* border: 1px solid rgb(118, 118, 118); add borders to cells */
+ font-size:large ;
+ font-weight: bold;
 }
+
+.carousel img{
+  margin-bottom: 2rem;
+}
+
+.custom_image{
+  cursor: pointer;
+}
+
 
 @media (min-width: 600px) and (max-width: 1000px) {
   .detail_spec table {
@@ -282,4 +292,18 @@
     gap: 10px;
   }
   
+  .custom_image{
+    width: 50%;
+    padding: 0;
+  }
+  .image_thumb{
+    margin-right: 0;
+    text-align: end;
+  }
+  
+  .detail_spec h1 {
+    margin: 0;
+    font-size: x-large;
+  text-align: center;
+  }
 }

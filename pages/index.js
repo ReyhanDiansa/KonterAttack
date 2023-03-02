@@ -71,7 +71,7 @@ export default function Home() {
                 </h3>
               </div>
               <div className={styles.card_button}>
-                <button>Buy</button>
+                  <Link href={`/Detail/${item.id}`}>Buy</Link>
               </div>
               <hr className={styles.card_line} />
               <div className={styles.card_detail}>
