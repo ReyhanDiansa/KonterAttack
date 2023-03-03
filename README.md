@@ -30,7 +30,7 @@ Install package with npm
 ## Deployment
 
 Deployment link:
-  https://konter-attack-reyhandiansa.vercel.app
+  https://konter-attack.vercel.app
 
 ## Contact
 
