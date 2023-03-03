@@ -36,6 +36,6 @@ Deployment link:
 
 Reyhan Marsalino Diansa - [@reyhanmd._](https://instagram.com/reyhanmd._) - reyhandiansa@gmail.com
 
-Project Link: [https://github.com/reyhandiansa/Qr-Code-Generator](https://github.com/ReyhanDiansa/KonterAttack/)
+Project Link: [https://github.com/reyhandiansa/KonterAttack](https://github.com/ReyhanDiansa/KonterAttack/)
 
 
