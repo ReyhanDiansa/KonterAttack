@@ -1,6 +1,13 @@
 #  KonterAttack
 
 Website Penjualan Smartphone menggunakan Nextjs
+
+## Deployment
+
+Deployment link:
+  https://konter-attack.vercel.app
+
+  
 ## Installation
 
 Install package with npm
@@ -26,11 +33,6 @@ Install package with npm
 
 ![App Screenshot](https://github.com/ReyhanDiansa/KonterAttack/blob/main/public/assets/images/ss.png)
 
-
-## Deployment
-
-Deployment link:
-  https://konter-attack.vercel.app
 
 ## Contact
 
