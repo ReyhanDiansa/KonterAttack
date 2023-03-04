@@ -9,12 +9,14 @@ import {
   AiOutlinePlusCircle,
   AiOutlineMinusCircle,
   AiOutlineShoppingCart,
+  AiOutlineArrowLeft,
 } from "react-icons/ai";
 import { GrNext, GrPrevious } from "react-icons/gr";
 import Footer from "@/component/Footer";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Link from "next/link";
 
 const Detail = () => {
   const router = useRouter();
@@ -51,7 +53,6 @@ const Detail = () => {
     }
   };
 
-
   const settings = {
     dots: true,
     slidesToShow: 1,
@@ -63,6 +64,14 @@ const Detail = () => {
   return (
     <>
       <Navbar />
+      <Link href={"/Product"}>
+        <div className={styles.back}>
+          <div className={styles.back_icon}>
+            <AiOutlineArrowLeft />
+          </div>  
+          <div className={styles.back_text}>Back to Product</div>
+        </div>
+      </Link>
       <div className={styles.detail_container}>
         <div className={styles.detail_image}>
           <Slider ref={sliderRef} {...settings}>
@@ -159,12 +168,14 @@ const Detail = () => {
 
       <div className={styles.detail_spec}>
         <h1>SPESIFICATION</h1>
-        <table >
+        <table>
           <tbody>
             {filtered.spesification &&
               Object.entries(filtered.spesification).map(([key, value]) => (
                 <tr key={key}>
-                  <td><span>{key}</span></td>
+                  <td>
+                    <span>{key}</span>
+                  </td>
                   <td>: {value}</td>
                 </tr>
               ))}

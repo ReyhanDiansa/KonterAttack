@@ -1,9 +1,21 @@
+
+.back{
+  margin: 6rem  9.4rem 0 9.4rem;
+  display: flex;
+  gap: 5px;
+}
+
+.back_icon svg{
+ margin-top: 2px;
+}
+
 .detail_container {
   background-color: white;
   display: flex;
   width: 80%;
-  margin: 5rem auto;
+  margin: 0.5rem auto 3rem auto;
 }
+
 .detail_image {
   width: 35%;
   margin: 0;
@@ -197,6 +209,10 @@
 
 
 @media (min-width: 600px) and (max-width: 1000px) {
+  .back{
+    margin: 6rem 4.5rem 0 4.5rem;
+  }
+
   .detail_spec table {
     width: 80% !important;
     max-width: 80% !important;
@@ -213,6 +229,9 @@
 }
 
 @media (max-width: 600px) {
+  .back{
+    margin: 5rem 2rem 0 2rem;
+  }
   .detail_container {
     flex-direction: column;
   }
