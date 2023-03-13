@@ -5,14 +5,32 @@ import StarRatings from "react-star-ratings";
 import { BsBatteryFull, BsCpu } from "react-icons/bs";
 import { MdOutlineSdCard } from "react-icons/md";
 import Footer from "../component/Footer";
-import data from "../data/produk.json";
 import Aboutus from "../component/AboutUs";
 import Brand from "../component/Brand";
 import Choose from "../component/Choose";
 import Link from "next/link";
+import { useState,useEffect } from "react";
 
 export default function Home() {
-  const bestProducts = data.filter((product) => product.best);
+  const [datas, setDatas] = useState([])
+  const url = "/data/produk.json";
+
+  async function getData() {
+    try {
+      const data = await fetch(url);
+      console.log(data);
+      const result = await data.json();
+      setDatas(result);
+    } catch (error) {
+      console.log(error);
+    }
+  }
+  const bestProducts = datas.filter((product) => product.best);
+  
+  useEffect(() => {
+    getData();
+  }, []);
+
   return (
     <>
       <div className={styles.first_content}>
@@ -51,8 +69,8 @@ export default function Home() {
           </h1>
         </div>
         <div className={styles.card_container}>
-          {bestProducts.map((item, index) => (
-            <div className={styles.card}>
+          {bestProducts.map((item) => (
+            <div className={styles.card} key={item.id}>
               <Image src={item.image} alt="My Image" width={150} height={150} />
               <div className={styles.rating}>
                 <StarRatings

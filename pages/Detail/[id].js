@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
 import { useRouter } from "next/router";
-import data from "../../data/produk.json";
 import Image from "next/image";
 import styles from "../../styles/detail.module.css";
 import Navbar from "@/component/Navbar";
@@ -24,22 +23,42 @@ const Detail = () => {
   const [filtered, setFiltered] = useState([]);
   const [counter, setCounter] = useState(0);
   const [showMore, setShowMore] = useState(false);
-  const [datas] = useState(data);
+  const [datas, setDatas] = useState([]);
+
+  const url = "/data/produk.json";
+
+  async function getData() {
+    try {
+      const data = await fetch(url);
+      console.log(data);
+      const result = await data.json();
+      console.log(result);
+      setDatas(result);
+    } catch (error) {
+      console.log(error);
+    }
+  }
 
   const sliderRef = useRef(null);
   const next = () => sliderRef.current.slickNext();
   const previous = () => sliderRef.current.slickPrev();
-
   useEffect(() => {
     if (id) {
       const filteredData = datas.filter((e) => e.id === id);
       setFiltered(filteredData[0]);
     }
-  }, [id]);
+  }, [id, datas]);
 
-  if (!filtered && !data) {
+  useEffect(() => {
+    getData();
+  }, []);
+
+  console.log(datas);
+
+  if (!filtered || !datas) {
     return <div>Loading...</div>;
   }
+
 
   const decrementCount = () => {
     if (counter > 0) {
@@ -60,7 +79,6 @@ const Detail = () => {
     arrows: false,
   };
 
-  console.log(filtered.image_car);
   return (
     <>
       <Navbar />
@@ -68,7 +86,7 @@ const Detail = () => {
         <div className={styles.back}>
           <div className={styles.back_icon}>
             <AiOutlineArrowLeft />
-          </div>  
+          </div>
           <div className={styles.back_text}>Back to Product</div>
         </div>
       </Link>

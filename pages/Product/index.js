@@ -1,6 +1,5 @@
 import Navbar from "../../component/Navbar";
 import React, { useState, useEffect } from "react";
-import data from "../../data/produk.json";
 import styles from "../../styles/product.module.css";
 import StarRatings from "react-star-ratings";
 import { BsBatteryFull, BsCpu, BsSearch } from "react-icons/bs";
@@ -13,13 +12,18 @@ const Favorite = () => {
   const [keyword, setKeyword] = useState("");
   const [filteredData, setFiltered] = useState([]);
 
-  const fetchGetAll = () => {
-    setDatas(data);
-  };
+  const url = "/data/produk.json";
 
-  useEffect(() => {
-    fetchGetAll();
-  }, []);
+  async function getData() {
+    try {
+      const data = await fetch(url);
+      console.log(data);
+      const result = await data.json();
+      setDatas(result);
+    } catch (error) {
+      console.log(error);
+    }
+  }
 
   const handleSearch = (e) => {
     e.preventDefault();
@@ -56,7 +60,9 @@ const Favorite = () => {
     }
   }
 
-
+  useEffect(() => {
+    getData();
+  }, []);
   return (
     <div>
       <Navbar />
@@ -75,8 +81,8 @@ const Favorite = () => {
       <div className={styles.card_container}>
         {filteredData ? (
           <>
-            {filteredData.map((item, index) => (
-              <div className={styles.card}>
+            {filteredData.map((item) => (
+              <div className={styles.card} key={item.id}>
                 <Image
                   src={item.image}
                   alt="My Image"
@@ -100,7 +106,7 @@ const Favorite = () => {
                   </h3>
                 </div>
                 <div className={styles.card_button}>
-                  <Link href={`/Detail/${item.id}`}>Buy</Link >
+                  <Link href={`/Detail/${item.id}`}>Buy</Link>
                 </div>
                 <hr className={styles.card_line} />
                 <div className={styles.card_detail}>
@@ -119,8 +125,8 @@ const Favorite = () => {
             ))}
           </>
         ) : (
-          datas.map((item, index) => (
-            <div className={styles.card}>
+          datas.map((item) => (
+            <div className={styles.card} key={item.id}>
               <Image src={item.image} alt="My Image" width={150} height={150} />
               <div className={styles.rating}>
                 <StarRatings
@@ -139,7 +145,7 @@ const Favorite = () => {
                 </h3>
               </div>
               <div className={styles.card_button}>
-              <Link href={`/Detail/${item.id}`}>Buy</Link >
+                <Link href={`/Detail/${item.id}`}>Buy</Link>
               </div>
               <hr className={styles.card_line} />
               <div className={styles.card_detail}>
